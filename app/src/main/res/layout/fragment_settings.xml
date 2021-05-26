@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.settings"
+    tools:ignore="MissingClass">
+    <TextView
+        android:id="@+id/meno"
+        android:layout_width="112dp"
+        android:layout_height="58dp"
+        android:text="Vaše meno"
+       android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/menozapisane"
+        android:layout_width="112dp"
+        android:layout_height="58dp"
+        android:text="meno"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="226dp"
+        />
+    <TextView
+        android:id="@+id/telefone_cislo"
+        android:layout_width="112dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="260dp"
+        android:text="Vaše čislo"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/telefone_cislo_zapisane"
+        android:layout_width="112dp"
+        android:layout_height="58dp"
+        android:text="meno"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="266dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_verified"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="165dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="320dp"
+        android:text="Zmenit meno"
+        android:onClick="zmena_mena"
+        tools:ignore="OnClick"
+        />
+
+
+<TextView
+    android:id="@+id/novemenoText"
+    android:layout_width="112dp"
+    android:layout_height="58dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="480dp"
+    android:text="Vaše nove meno"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    />
+        <EditText
+            android:id="@+id/novemeno"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="470dp"
+            />
+
+
+
+
+</FrameLayout>

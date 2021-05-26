@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "707217201188",
+    "project_id": "chat-48590",
+    "storage_bucket": "chat-48590.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707217201188:android:3514e60f2a3a85aeef60b1",
+        "android_client_info": {
+          "package_name": "com.example.catovacka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707217201188-tq7gtu1hgov84dmvcis3pvnep4fp7fb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.catovacka",
+            "certificate_hash": "df32fa8f735405f6654a0cca05004b8745067503"
+          }
+        },
+        {
+          "client_id": "707217201188-osksselkt3r4eib47mq519i38j9j6bpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp18idaf40ajZ5RmsaIAmmZVRlOnpD944"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707217201188-osksselkt3r4eib47mq519i38j9j6bpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
